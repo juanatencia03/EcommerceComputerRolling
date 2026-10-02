@@ -1,6 +1,25 @@
-/* =========================================
-   CONFIGURACIÓN GENERAL
-========================================= */
+:root {
+  /* Fondos */
+  --bg-main: #111111;
+  --bg-dark: #0a0a0a;
+  --bg-card: #1f1f1f;
+  --bg-hero: #747d84;
+
+  /* Marca */
+  --color-primary: #ffd400;
+  --color-secondary: #ff5a00;
+  --color-secondary-hover: #e64a00;
+
+  /* Textos */
+  --text-primary: #ffffff;
+  --text-secondary: #a7adb4;
+
+  /* Bordes */
+  --border-color: #343434;
+
+  /* Estados */
+  --color-danger: #dc2638;
+}
 
 * {
   margin: 0;
@@ -140,6 +159,153 @@ body {
 
 .menu .carrito:hover {
   color: #ffffff;
+}
+
+/* ===================================================
+   SECCIÓN CARRITO DE COMPRAS
+   =================================================== */
+
+/* Fondo general oscuro de la página */
+.seccion-carrito {
+  background-color: #121212;
+  min-height: 85vh;
+  color: #ffffff;
+}
+
+.titulo-carrito {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* Envoltorio con bordes redondeados */
+.contenedor-tabla {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #2a2a2a;
+}
+
+/* Tabla: Fondo blanco para las filas y texto oscuro */
+.tabla-carrito {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+/* Encabezado oscuro con texto blanco */
+.tabla-carrito thead {
+  background-color: #1f1f1f;
+}
+
+.tabla-carrito thead th {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 14px 16px;
+  border-bottom: 2px solid #333333;
+}
+
+/* Celdas del cuerpo */
+.tabla-carrito tbody tr {
+  background-color: #ffffff;
+}
+
+.tabla-carrito tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.tabla-carrito tbody td {
+  padding: 12px 14px;
+  background-color: inherit;
+  color: #212529;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Ancho y alineaciones de columnas */
+.col-img {
+  width: 80px;
+}
+
+.col-cant {
+  width: 130px;
+}
+
+.col-accion {
+  width: 50px;
+}
+
+/* Imagen de producto contenida */
+.img-producto-carrito {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.nombre-producto {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.subtotal-producto {
+  font-weight: 700;
+  color: #dc3545;
+}
+
+/* Botonera de cantidad */
+.control-cantidad {
+  max-width: 110px;
+  margin: 0 auto;
+}
+
+.control-cantidad input {
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+/* Botón de eliminar fila */
+.btn-eliminar {
+  background: transparent;
+  border: none;
+  color: #dc3545;
+  font-size: 1.2rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-eliminar:hover {
+  background-color: #ffe5e7;
+  color: #bb2d3b;
+}
+
+/* Tarjeta del resumen de pago (blanca con contraste) */
+.card-resumen {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  top: 20px;
+}
+
+.titulo-resumen {
+  color: #1a1a1a;
+  font-weight: 700;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.total-resumen {
+  color: #dc3545;
+  font-size: 1.4rem;
+}
+
+.separador-resumen {
+  border-color: #dee2e6;
+  opacity: 0.8;
+}
+
+.titulo-carrito {
+  color: #ff8a00;
 }
 
 /* =========================================
