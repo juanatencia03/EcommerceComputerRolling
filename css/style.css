@@ -144,51 +144,6 @@ body {
 
 /* =========================================
    RESPONSIVE
-========================================= */
-
-@media (max-width: 1200px) {
-  .navbar {
-    padding: 0 25px;
-    gap: 20px;
-  }
-
-  .logo {
-    min-width: 150px;
-  }
-
-  .buscador {
-    width: 300px;
-  }
-
-  .menu {
-    gap: 20px;
-  }
-}
-
-@media (max-width: 950px) {
-  .navbar {
-    height: auto;
-    min-height: 76px;
-
-    flex-wrap: wrap;
-
-    padding: 15px 25px;
-  }
-
-  .buscador {
-    order: 3;
-
-    width: 100%;
-  }
-
-  .menu {
-    gap: 18px;
-  }
-}
-
-@media (max-width: 700px) {
-  .navbar {
-    flex-direction: column;
 
     align-items: stretch;
 
