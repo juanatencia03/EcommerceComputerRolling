@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NexusComputer</title>
+<title>NexusComputer</title>
+    <!-- Bootstrap CSS y Bootstrap Icons (los necesita el footer de Hernán) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRI14kxILFVy47J16cr9zWb07vP4J8+LH7qKQnuqkuIAvNWLZeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    
-  </head>
-  <body>
-  
-         <!-- ================= NAVBAR ================= -->
+</head>
+<body>
 
+    <!-- ==================== NAVBAR (Ceci) ==================== -->
     <header class="navbar">
-
         <!-- LOGO -->
         <div class="logo">
             <a href="./index.html">
@@ -21,42 +21,55 @@
             </a>
         </div>
 
-
         <!-- BUSCADOR -->
         <div class="buscador">
-          <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y categorías..."" aria-label="Búsqueda"/>
-          <button class="btn btn-outline-success" type="submit">Búsqueda</button>
-          
+            <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas y categorías..." aria-label="Búsqueda" />
+            <button class="btn btn-outline-success" type="submit">Búsqueda</button>
         </div>
-
 
         <!-- MENU -->
         <nav class="menu">
-
-            <a href="./paginas/Iniciar-Sesión.html">
-                Iniciar Sesión
-            </a>
-
-            <a href="./paginas/Registrarse.html">
-                Registrarse
-            </a>
-
-            <a href="./paginas/Contacto.html">
-                Contacto
-            </a>
-
-            <a href="./paginas/Acerca-de-Nosotros.html">
-                Acerca de nosotros
-            </a>
-
-            <a href="./paginas/Carrito-de-Compra.html" class="carrito">
-                Carrito 
-            </a>
-
+            <a href="./Paginas/Iniciar-Sesión.html">Iniciar Sesión</a>
+            <a href="./Paginas/Registrarse.html">Registrarse</a>
+            <a href="./Paginas/Contacto.html">Contacto</a>
+            <a href="./Paginas/Acerca-de-Nosotros.html">Acerca de nosotros</a>
+            <a href="./Paginas/Carrito-de-Compra.html" class="carrito">Carrito</a>
         </nav>
+    </header>
 
-     </header>
-     <main></main>
-     <footer></footer>
+    <main></main>
+
+    <!-- ==================== FOOTER (Hernán) ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Columna 1 -->
+            <div class="footer-col">
+                <h3 class="footer-logo">Nexus PC</h3>
+                <p>Tienda líder en hardware, componentes de PC y notebooks gamer. Compra segura y envíos a todo el país.</p>
+                <p class="footer-copy">&copy; NexusCompany Todos los derechos reservados.</p>
+            </div>
+
+            <!-- Columna 2 -->
+            <div class="footer-col footer-CyR">
+                <h4>Contacto y Redes</h4>
+                <p>Av. Siempreviva 742 Bs.As Argentina</p>
+                <p>NexusPc@gmail.com</p>
+                <div class="footer-redes">
+                    <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Columna 3 -->
+            <div class="footer-col">
+                <h4>Información Útil</h4>
+                <a href="#">Contactate con nosotros</a>
+                <a href="#" target="_blank">Servicio Postventa/Garantías</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
   </body>
 </html>
