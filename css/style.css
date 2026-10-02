@@ -27,6 +27,9 @@
 .ingreso label {
   color: #a7adb4;
 }
+.ingreso p {
+  color: #a7adb4;
+}
 
 .ingreso input {
   background-color: #0a0a0a;
