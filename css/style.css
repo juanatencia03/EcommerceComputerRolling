@@ -15,6 +15,136 @@ body {
 }
 
 /* =========================================
+   LOGIN Y REGISTRO
+========================================= */
+
+.ingreso {
+  border-color: #343434;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  width: 90%;
+  max-width: 750px;
+  padding: 24px;
+  margin: 32px auto;
+  border: 2px solid;
+  border-radius: 16px;
+  text-align: center;
+}
+.ingreso h1 {
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.ingreso label {
+  color: #a7adb4;
+}
+.ingreso p {
+  color: #a7adb4;
+}
+
+.ingreso input {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border: 1px solid #a7adb4;
+}
+
+.ingreso input::placeholder {
+  color: #a7adb4;
+  opacity: 0.5;
+}
+
+.ingreso button[type="submit"] {
+  background-color: #ff8a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.ingreso button[type="submit"]:hover {
+  background-color: #e64a00;
+  
+}
+
+.ingreso button[type="button"] {
+  background-color: #ff8a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.ingreso button[type="button"]:hover {
+  background-color: #e64a00;
+}
+
+.campos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.campos > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.campos label {
+  margin-bottom: 4px;
+  color: #a7adb4;
+}
+
+.campos input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.botones {
+  text-align: center;
+}
+
+.camposregistro div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.camposregistro div label {
+  width: 140px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.camposregistro div input {
+  flex: 1;
+}
+
+.layout {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  padding: 32px 16px;
+  box-sizing: border-box;
+}
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen {
+  flex: 1;
+}
+
+
+/* =========================================
    NAVBAR
 ========================================= */
 
@@ -471,5 +601,40 @@ main {
 
   h1 {
     padding-left: 160px;
+  }
+}
+
+@media (max-width: 480px){
+  .camposregistro div label {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+
+  }
+
+  .camposregistro div label {
+    width: auto;
+    text-align: left;
+  }
+
+  .camposregistro div input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .btn-social {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  .btn-social:focus {
+
+    outline: none;
+  }
+
+  .campos {
+    flex-direction: column;
+    display: flex;
   }
 }

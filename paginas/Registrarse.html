@@ -49,7 +49,99 @@
       </nav>
     </header>
 
-    <main></main>
+    <main class="form-page">
+      <div class="ingreso">
+        <h1>Crear cuenta</h1>
+        <form action="registrar">
+          <div class="campos">
+            <div>
+              <label for="nombreyapellido">Nombre y apellido:</label>
+              <input type="text" id="nombreyapellido" required />
+            </div>
+
+            <div>
+              <label for="nombre">Nombre de usuario:</label>
+              <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre de usuario"
+                minlength="6"
+                maxlength="18"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="correo">Correo:</label>
+              <input
+                type="email"
+                id="correo"
+                placeholder="ejemplo@gmail.com"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="telefono">Número de telefono:</label>
+              <input type="text" name="telefono" id="telefono" />
+            </div>
+
+            <div>
+              <label for="domicilio">Domicilio:</label>
+              <input type="text" id="domicilio" required />
+            </div>
+
+            <div>
+              <label for="codigopostal">Código postal:</label>
+              <input type="text" id="codigopostal" required />
+            </div>
+
+            <div>
+              <label for="clave">Contraseña:</label>
+              <input
+                type="password"
+                id="clave"
+                placeholder="********"
+                minlength="8"
+                maxlength="20"
+                pattern="(?=.*\d)(?=.*[!@#$%^&*(),.?&:{}|])"
+                title="Introducir caracter especial"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="clave2">Confirmar contraseña:</label>
+              <input
+                type="password"
+                id="clave2"
+                placeholder="**********"
+                minlength="8"
+                maxlength="20"
+                pattern="(?=.*\d)(?=.*[!@#$%^&*(),.?&:{}|])"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="botones">
+            <br />
+            <button type="submit">Crear cuenta</button>
+            <a href="../index.html">
+              <br />
+              <br />
+              <button type="button">Volver</button>
+            </a>
+          </div>
+          <br />
+
+          <p>
+            ¿Ya tenés una cuenta? Inicia sesión
+            <a href="./Iniciar-Sesión.html"> acá.</a>
+          </p>
+        </form>
+      </div>
+    </main>
 
     <!-- ==================== FOOTER (Hernán) ==================== -->
     <footer class="footer">
