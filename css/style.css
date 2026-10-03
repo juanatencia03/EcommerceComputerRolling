@@ -14,6 +14,35 @@ body {
   color: #222;
 }
 
+.img-producto-grid,
+.img-categoria {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.img-producto-grid {
+  object-fit: contain;
+}
+
+.img-categoria {
+  object-fit: cover;
+}
+
+.card-categoria .card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.card-categoria .card-text {
+  flex-grow: 1;
+}
+
+.card-categoria .btn {
+  margin-top: auto;
+}
+
 /* =========================================
    LOGIN Y REGISTRO
 ========================================= */
