@@ -637,3 +637,50 @@ main {
     padding-left: 160px;
   }
 }
+
+@media (max-width: 480px) {
+  .camposregistro div label {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .camposregistro div label {
+    width: auto;
+    text-align: left;
+  }
+
+  .camposregistro div input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .btn-social {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .btn-social:focus {
+    outline: none;
+  }
+
+  .campos {
+    flex-direction: column;
+    display: flex;
+  }
+}
+.contenedorNosotros {
+  color: white;
+
+  h1 {
+    color: #ff8a00;
+  }
+
+  h2 {
+    color: #ff8a00;
+  }
+}
+
+.textRol {
+  color: rgb(186, 129, 59);
+}
