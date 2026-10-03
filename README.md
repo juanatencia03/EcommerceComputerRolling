@@ -18,16 +18,15 @@ Nexus PC es una plataforma de comercio electrónico enfocado en la venta de **co
 ├── img/
 │ ├── banners/
 │ ├── productos/
-│ └── equipo/
-├── pages/
-│ ├── categoria-detalle.html
-│ ├── producto-detalle.html
-│ └── carrito.html
-│ ├── login.html
-│ ├── registro.html
-│ └── contacto.html
-│ ├── acerca-de-nosotros.html
-│ ├── error404.html
+├── paginas/
+│ ├── Categoria-Detalle.html
+│ ├── Producto-Detalle.html
+│ └── Carrito-de-Compra.html
+│ ├── Iniciar-Sesión.html
+│ ├── Regitrarse.html
+│ └── Contacto.html
+│ ├── Acerca-de-Nosotros.html
+│ ├── Error404.html
 ├── index.html
 └── README.md
 ```
