@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexusPC</title>
+    <!-- Bootstrap CSS y Bootstrap Icons (los necesita el footer de Hernán) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!-- Acá va el navbar que ya usan en todas las páginas -->
+    <header class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+        <a href="/index.html">
+          <span class="nexus">NEXUS</span>
+          <span class="PC">PC</span>
+        </a>
+      </div>
+
+      <!-- BUSCADOR -->
+      <div class="buscador">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Buscar productos, marcas y categorías..."
+          aria-label="Búsqueda"
+        />
+        <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+      </div>
+
+      <!-- MENU -->
+      <nav class="menu">
+        <a href="./Iniciar-Sesión.html">Iniciar Sesión</a>
+        <a href="./Registrarse.html">Registrarse</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="./acerca-de-nosotros.html">Acerca de nosotros</a>
+        <a href="./Carrito-de-Compra.html" class="carrito">Carrito</a>
+      </nav>
+    </header>
+    <main class="container py-5">
+      <section class="row align-items-center g-4">
+        <!-- Imagen -->
+        <div class="col-12 col-md-6 text-center">
+          <img
+            src="/img/productos/Img-PlacaGigabyteRx9060XT8gb.jpg"
+            alt="Placa de video"
+            class="img-fluid producto-detalle-img"
+          />
+        </div>
+
+        <!-- Información -->
+        <div class="col-12 col-md-6">
+          <h1 class="producto-titulo text-white">
+            Placa de Video AMD Radeon RX 9060 XT
+          </h1>
+
+          <h2 class="producto-precio text-white">$599.999</h2>
+
+          <p class="producto-descripcion text-white">
+            Unidad de Procesamiento (GPU): AMD Radeon RX 9060 XT con
+            arquitectura AMD RDNA 4 (proceso de fabricación de 4nm TSMC N4P)
+            Memoria VRAM: 8 GB GDDR6 Puertos de video: 2x DisplayPort 2.1a y 1x
+            HDMI 2.1b (resolución máxima compatible de hasta 7680x4320 / 8K,
+            soporte para múltiples monitores)
+          </p>
+
+          <a href="./Carrito-de-Compra.html" class="btn btn-warning btn-lg">
+            Comprar
+          </a>
+        </div>
+      </section>
+
+      <!-- Comentarios -->
+      <section class="mt-5">
+        <h2 class="mb-4 text-white">Comentarios de usuarios</h2>
+
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="comentario-card">
+              <h5>Juan Pérez</h5>
+              <p>
+                Excelente producto. Muy buen rendimiento y llegó en perfectas
+                condiciones.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="comentario-card">
+              <h5>Lucía Gómez</h5>
+              <p>Muy buena placa para jugar en 1080p. La recomiendo.</p>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="comentario-card">
+              <h5>Martín López</h5>
+              <p>Buena relación precio-rendimiento y fácil instalación.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Acá va el footer que ya usan -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Columna 1 -->
+        <div class="footer-col">
+          <h3 class="footer-logo">Nexus PC</h3>
+          <p>
+            Tienda líder en hardware, componentes de PC y notebooks gamer.
+            Compra segura y envíos a todo el país.
+          </p>
+          <p class="footer-copy">
+            &copy; NexusCompany Todos los derechos reservados.
+          </p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="footer-col footer-CyR">
+          <h4>Contacto y Redes</h4>
+          <p>Provincia Cordoba 1100, San Miguel de Tucumán</p>
+          <p>NexusPc@gmail.com</p>
+          <div class="footer-redes">
+            <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="footer-col">
+          <h4>Información Útil</h4>
+          <a href="./paginas/Contacto.html">Contactate con nosotros</a>
+          <a href="#" target="_blank">Servicio Postventa/Garantías</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
