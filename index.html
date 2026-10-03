@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- ==================== NAVBAR (Ceci) ==================== -->
     <header class="navbar">
       <!-- LOGO -->
       <div class="logo">
@@ -49,9 +48,138 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <!-- SECCIÓN 1: Slider / Carrusel de Promociones -->
+      <section class="banner-promociones">
+        <div
+          id="carouselPromociones"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicadores de posición -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselPromociones"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Promoción 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselPromociones"
+              data-bs-slide-to="1"
+              aria-label="Promoción 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselPromociones"
+              data-bs-slide-to="2"
+              aria-label="Promoción 3"
+            ></button>
+          </div>
 
-    <!-- ==================== FOOTER (Hernán) ==================== -->
+          <!-- Slides / Banners -->
+          <div class="carousel-inner">
+            <!-- Slide 1: Placas de Video -->
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img
+                src="./img/banner/Banner-Gráficas.jpg"
+                class="d-block img-banner"
+                alt="Promoción en Placas de Video RTX y Radeon"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3 p-3"
+              >
+                <h3 class="fw-bold text-uppercase">
+                  Semana Gamer: Placas de Video
+                </h3>
+                <p class="mb-2">
+                  Hasta 25% OFF y 6 cuotas sin interés en RTX Serie 40 y RX
+                  Serie 7000.
+                </p>
+                <a
+                  href="./Paginas/error404.html"
+                  class="btn btn-danger btn-sm px-3 fw-semibold"
+                  >Ver Ofertas</a
+                >
+              </div>
+            </div>
+
+            <!-- Slide 2: Procesadores -->
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="./img/banner/Banner-Procesador.jpg"
+                class="d-block w-100 img-banner"
+                alt="Promoción en Procesadores Ryzen e Intel Core"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3 p-3"
+              >
+                <h3 class="fw-bold text-uppercase">
+                  Potencia al Máximo con Ryzen e Intel
+                </h3>
+                <p class="mb-2">
+                  Combos de Procesador + Motherboard con descuento exclusivo.
+                </p>
+                <a
+                  href="./Paginas/error404.html"
+                  class="btn btn-primary btn-sm px-3 fw-semibold"
+                  >Armar Mi PC</a
+                >
+              </div>
+            </div>
+
+            <!-- Slide 3: Memorias y Almacenamiento -->
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                src="./img/banner/Banner-Slide3.jpg"
+                class="d-block w-100 img-banner"
+                alt="Ofertas en Memorias RAM y Discos SSD NVMe"
+              />
+              <div
+                class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded-3 p-3"
+              >
+                <h3 class="fw-bold text-uppercase">Upgrades de Velocidad</h3>
+                <p class="mb-2">
+                  SSDs NVMe M.2 y Memorias RAM DDR4 / DDR5 con envíos gratis a
+                  todo el país.
+                </p>
+                <a
+                  href="./Paginas/error404.html"
+                  class="btn btn-success btn-sm px-3 fw-semibold"
+                  >Comprar Ahora</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Controles Anterior / Siguiente -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPromociones"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPromociones"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- A continuación vendrán las secciones 2, 3 y 4 (categorías/productos y publicidad)[cite: 4] -->
+    </main>
+
     <footer class="footer">
       <div class="footer-container">
         <!-- Columna 1 -->
