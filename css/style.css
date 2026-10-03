@@ -299,7 +299,6 @@ body {
    SECCIÓN CARRITO DE COMPRAS
    =================================================== */
 
-
 .seccion-carrito {
   background-color: #121212;
   min-height: 85vh;
@@ -312,14 +311,12 @@ body {
   font-size: 1.6rem;
 }
 
-
 .contenedor-tabla {
   border-radius: 10px;
   overflow: hidden;
   background-color: #ffffff;
   border: 1px solid #2a2a2a;
 }
-
 
 .tabla-carrito {
   background-color: #ffffff;
@@ -338,7 +335,6 @@ body {
   border-bottom: 2px solid #333333;
 }
 
-
 .tabla-carrito tbody tr {
   background-color: #ffffff;
 }
@@ -354,7 +350,6 @@ body {
   border-bottom: 1px solid #e9ecef;
 }
 
-
 .col-img {
   width: 80px;
 }
@@ -366,7 +361,6 @@ body {
 .col-accion {
   width: 50px;
 }
-
 
 .img-producto-carrito {
   max-width: 60px;
@@ -385,7 +379,6 @@ body {
   color: #dc3545;
 }
 
-
 .control-cantidad {
   max-width: 110px;
   margin: 0 auto;
@@ -395,7 +388,6 @@ body {
   font-weight: 600;
   background-color: #ffffff;
 }
-
 
 .btn-eliminar {
   background: transparent;
@@ -411,7 +403,6 @@ body {
   background-color: #ffe5e7;
   color: #bb2d3b;
 }
-
 
 .card-resumen {
   background-color: #ffffff;
@@ -526,7 +517,7 @@ body {
 #carouselPromociones {
   width: 100%;
   overflow: hidden;
-  background-color: #000; 
+  background-color: #000;
 }
 
 .img-banner {
@@ -712,4 +703,23 @@ main {
 
 .textRol {
   color: rgb(186, 129, 59);
+}
+
+.detalle-producto {
+  background-color: #101217;
+  color: white;
+}
+
+.producto-titulo {
+  color: white;
+}
+
+.producto-precio {
+  color: #ff5a00;
+}
+
+.comentario-card {
+  background-color: #1f2126;
+  border: 1px solid #343434;
+  color: white;
 }
